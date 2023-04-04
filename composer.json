@@ -1,5 +1,5 @@
 {
-    "name": "blade-ui-kit/blade-heroicons",
+    "name": "blade-ui-kit/blade-heroicons-v2",
     "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
     "keywords": ["Blade", "Heroicons", "Laravel"],
     "homepage": "https://github.com/blade-ui-kit/blade-heroicons",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "BladeUI\\HeroiconsV2\\": "src"
         }
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "BladeUI\\HeroiconsV2\\BladeHeroiconsV2ServiceProvider"
             ]
         }
     },
